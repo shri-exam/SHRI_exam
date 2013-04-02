@@ -1,0 +1,76 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+/*    width: 100%;
+    height: 100%;*/
+}
+
+.scroll{
+    overflow: hidden;
+    position: fixed;
+    white-space: nowrap;
+    bottom:0;
+}
+
+ul{
+    list-style: none outside none;
+    padding: 15px 0;
+    margin: 0;
+    display:block;
+}
+
+li {
+    display:inline-block;
+    padding: 0 2px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+li img{
+    border:2px solid transparent;
+}
+
+.show{
+    text-align: center;
+    overflow: hidden;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.show img{
+    position: relative;
+}
+
+span{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.arrowl{
+    width: 40px;
+    height: 54px;
+    background: url(img/arrow.png) 38px 0;
+    position: absolute;
+    top:50%;
+    left:10px;
+    display: none;
+    cursor: pointer;
+}
+
+.arrowr{
+    width: 40px;
+    height: 54px;
+    background: url(img/arrow.png) 0 0;
+    position: absolute;
+    top:50%;
+    right:10px;
+    display: none;
+    cursor: pointer;
+}
